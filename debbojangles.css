@@ -9,3 +9,12 @@ body {
     background-color: #ffb6c1;
     display: flex;
 }
+
+.middle {
+    border-top: 140px solid lightpink;
+    border-left: 15px solid lightpink;
+    border-right: 15px solid lightpink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
