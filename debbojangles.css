@@ -287,3 +287,27 @@ html {
     flex-direction: column;
     margin-top: 300px;
 }
+
+.scratch {
+    display: flex;
+    color: lemonchiffon;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 400;
+    justify-content: center;
+}
+
+#photoSketchPad {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 241.5px;
+    width: 201.5px;
+    background-image: url("./img/DSC_0814small.JPG");
+    border: 10px solid lemonchiffon;
+}
+
+.square{
+    border: 0.3px solid rgb(185, 185, 185);
+    background-color: lightpink;
+}
