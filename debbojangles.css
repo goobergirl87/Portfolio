@@ -167,3 +167,9 @@ h1 {
     background-color: #ffb6c1;
 }
 
+.side {
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    margin-left: -50px;
+}
