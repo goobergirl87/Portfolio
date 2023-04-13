@@ -113,3 +113,24 @@ h1 {
 .postfirstrow-left {
     display: flex;
 }
+
+.postfirstrow-right {
+    display: flex;
+}
+
+.button {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: rgb(255, 221, 226);
+    color:rgb(78, 78, 78);
+    border-radius: 15px;
+    margin: 14px 10px 0px 4px;
+    padding: 14px 8px 0px 8px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #ffb6c1;
+}
+
