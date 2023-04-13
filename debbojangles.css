@@ -5,6 +5,14 @@ body {
     flex-wrap: wrap;
 }
 
+.date {
+    font-family: sans-serif;
+    color: rgb(78, 78, 78);
+    font-size: 16px;
+    font-style: italic;
+    margin: -15px 0px 0px 50px;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
