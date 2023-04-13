@@ -22,6 +22,16 @@ body {
     display: flex;
 }
 
+.footerli {
+    color: lemonchiffon;
+    font-family: sans-serif;
+    margin-right: 20px;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    font-weight:700;
+    text-decoration: none;
+}
+
 .header {
     background-color: #ffb6c1;
     display: flex;
