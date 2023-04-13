@@ -10,6 +10,25 @@ body {
     display: flex;
 }
 
+h1 {
+    color: #fffacd;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 120px;
+    font-weight: 300;
+    margin-top: -26px;
+    margin-left: 27px;
+}
+
+.h4 {
+    font-family:'Times New Roman', Times, serif;
+    color: #fffacd;
+    font-size: 30px;
+    font-weight: 100px;
+    width: 1200px;
+    margin-top: -120px;
+    margin-left: 27px;
+}
+
 .main {
     display: flex;
     flex-direction: column;
