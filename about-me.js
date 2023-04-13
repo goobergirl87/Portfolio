@@ -7,8 +7,5 @@ for (let i = 0; i < 120; i++){
 
     square.onmousemove = function(){
         square.style.backgroundColor = 'transparent';
-
-
     };
-
 };
