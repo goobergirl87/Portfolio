@@ -32,6 +32,10 @@ body {
     text-decoration: none;
 }
 
+.footerli:hover {
+    color:darkgreen;
+}
+
 .header {
     background-color: #ffb6c1;
     display: flex;
