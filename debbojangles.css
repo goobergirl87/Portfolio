@@ -37,6 +37,13 @@ h1 {
     width: 800px;
 }
 
+.mainheader {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
 .middle {
     border-top: 140px solid lightpink;
     border-left: 15px solid lightpink;
