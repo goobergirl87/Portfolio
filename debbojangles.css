@@ -60,6 +60,10 @@ h1 {
     margin-left: 27px;
 }
 
+.icon {
+    margin: 0px 10px;
+}
+
 .main {
     display: flex;
     flex-direction: column;
