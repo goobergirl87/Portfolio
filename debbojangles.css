@@ -68,6 +68,10 @@ h1 {
     margin-left: 27px;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .icon {
     margin: 0px 10px;
 }
