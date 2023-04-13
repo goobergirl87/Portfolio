@@ -17,6 +17,11 @@ body {
     border-bottom: 15px solid lightpink;
 }
 
+.footerul {
+    list-style-type: none;
+    display: flex;
+}
+
 .header {
     background-color: #ffb6c1;
     display: flex;
