@@ -118,6 +118,14 @@ h1 {
     display: flex;
 }
 
+.postnumber {
+    font-family: sans-serif;
+    color: rgb(78, 78, 78);
+    font-size: 18px;
+    font-weight: 800px;
+    margin-left: 20px;
+}
+
 .button {
     font-family: sans-serif;
     font-size: 12px;
