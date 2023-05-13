@@ -47,12 +47,21 @@ table {
 	border-spacing: 0;
 }
 
+html, body {
+    height: 100%;
+  }
+
 body {
     background-color:darkseagreen;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+.content {
+    flex: 1 0 auto;
+  }
+
 
 .date {
     font-family: sans-serif;
@@ -62,16 +71,13 @@ body {
     margin: -15px 0px 0px 50px;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     background-color: lightpink;
-    padding: 10px;
-    border-top: 30px solid lightpink;
-    border-left: 15px solid lightpink;
-    border-right: 15px solid lightpink;
-    border-bottom: 15px solid lightpink;
+    padding: 20px;
+    flex-shrink: 0;
 }
 
 .footerul {
