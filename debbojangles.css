@@ -99,8 +99,62 @@ footer {
     color:darkgreen;
 }
 
-.header {
-    background-color: #ffb6c1;
+header {
+}
+
+.spacer {
+        aspect-ratio: 960/200;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+.layer1 {
+    background-image: url('./img/layer1.svg');
+    }
+
+.layer2 {
+    background-image: url('./img/layer2.svg');
+    }
+
+.layer3 {
+    background-image: url('./img/layer3.svg');
+    }
+
+
+h1 {
+    color: #fffacd;
+    font-family: Abril Fatface, serif;
+    font-size: 60px;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+h2 {
+    color: #515151;
+    font-family: Abril Fatface, serif;
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h3 {
+    color: #515151;
+    font-family: Abril Fatface, serif;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+p {
+    color: #515151;
+    font-family: Raleway, sansserif;
+    font-size: 18px;
+    line-height: 1.5rem;
+    margin-top: 20px;
+}
+
+.sub {
     display: flex;
 }
 
