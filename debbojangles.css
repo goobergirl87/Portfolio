@@ -119,6 +119,18 @@ header {
     background-image: url('./img/layer3.svg');
     }
 
+.layer4 {
+        background-image: url('./img/layer4.svg');
+    }
+
+.layer5 {
+        background-image: url('./img/layer5.svg');
+    }
+
+.layer6 {
+        background-image: url('./img/layer6.svg');
+    }
+
 
 h1 {
     color: #fffacd;
