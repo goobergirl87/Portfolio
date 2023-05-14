@@ -47,20 +47,13 @@ table {
 	border-spacing: 0;
 }
 
-html, body {
-    height: 100%;
-  }
 
 body {
-    background-color:darkseagreen;
+    background-color:#8fbc8f;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-
-.content {
-    flex: 1 0 auto;
-  }
 
 
 .date {
@@ -74,29 +67,33 @@ body {
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    background-color: lightpink;
-    padding: 20px;
-    flex-shrink: 0;
+    align-items: flex-end;
 }
 
 .footerul {
     list-style-type: none;
     display: flex;
+    align-items: center;
+    padding: 0px 0px 40px 40px;
+}
+
+.icons {
+    align-items: center;
+    padding: 0px 40px 40px 0px;
 }
 
 .footerli {
     color: lemonchiffon;
-    font-family: sans-serif;
+    font-family: Abril Fatface, sansserif;
     margin-right: 20px;
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 0.7px;
-    font-weight:700;
     text-decoration: none;
+
 }
 
 .footerli:hover {
-    color:darkgreen;
+    color:#8fbc8f;
 }
 
 header {
@@ -156,19 +153,24 @@ p {
 
 .sub {
     display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding: 10px;
+    align-self: center;
 }
 
-.maintitle {
-    color: #fffacd;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 120px;
-    font-weight: 300;
-    margin-top: -26px;
-    margin-left: 27px;
+.tile {
+    margin: 20px ;
+    width: 20vw;
+    padding: 10px 30px 30px 30px;
+    flex-wrap: wrap;
+    background-color: #fffacd;
+    border: 2px solid #515151;
+    box-shadow: 6px 4px #515151;
 }
 
 .subtitle {
-    font-family:'Times New Roman', Times, serif;
+    font-family: Abril Fatface, serif;
     color: #fffacd;
     font-size: 30px;
     font-weight: 100px;
@@ -185,12 +187,11 @@ html {
     margin: 0px 10px;
 }
 
-.main {
+main {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    margin-top: -50px;
-    width: 800px;
+    margin: 20px;
+    justify-content: center;
 }
 
 .mainheader {
@@ -201,9 +202,6 @@ html {
 }
 
 .middle {
-    border-top: 140px solid lightpink;
-    border-left: 15px solid lightpink;
-    border-right: 15px solid lightpink;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -253,6 +251,7 @@ html {
     font-size: 18px;
     font-weight: 700;
     margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .posttext {
@@ -308,56 +307,8 @@ html {
     color:rgb(78, 78, 78); 
 }
 
+
+
 /* || about-me.html styles */
 
-table {
-    border-collapse: collapse;
-    border: 2px solid rgb(200,200,200);
-    letter-spacing: 1px;
-    font-size: 0.8rem;
-    width: 60vw;
-    border: 10px solid #8fbc8f;
-  }
-  
-  td, th {
-    border: 1px solid rgb(190,190,190);
-    padding: 10px 20px;
-  }
-  
-  th {
-    background-color: #8fbc8f;
-    font-family: sans-serif;
-    color: rgb(78, 78, 78);
-    font-size: 14px;
-    padding-top: 10px;
-    text-align: left;
-  }
-  
-  td {
-    text-align: left;
-    font-family: sans-serif;
-    color: rgb(78, 78, 78);
-    font-size: 14px;
-    line-height: 1.3rem;
 
-.cvcontent {
-    display: flex;
-    align-items: baseline;
-    margin-bottom: 5px;
-  }
-  
-  tr:nth-child(even) td {
-    background-color: rgb(255, 251, 212);
-  }
-  
-  tr:nth-child(odd) td {
-    background-color: rgb(255, 252, 232);
-  }
-
-  caption {
-    padding: 10px;
-
-.square{
-    border: 0.3px solid rgb(185, 185, 185);
-    background-color: lightpink;
-  }
