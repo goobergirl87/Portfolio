@@ -79,14 +79,14 @@ header {
     background-image: url('./img/layer-top.svg');
     }
 
-    .logo {
-        color: #BB004B;
-        font-family: Abril Fatface, serif;
-        font-size: 40px;
-        text-align: left;
-        margin: 40px 0px 0px 40px;
-        text-decoration: none;
-    }
+.logo {
+    color: #BB004B;
+    font-family: Abril Fatface, serif;
+    font-size: 40px;
+    text-align: left;
+    margin: 40px 0px 0px 40px;
+    text-decoration: none;
+}
 
 footer {
     display: grid;
