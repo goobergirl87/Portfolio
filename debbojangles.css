@@ -88,6 +88,14 @@ header {
     text-decoration: none;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 75px 1fr 1fr 1fr;
+    grid-template-rows: repeat(6 1fr);
+    column-gap: 10px;
+    row-gap: 150px;
+}
+
 footer {
     display: grid;
     grid-template-columns: 75px 1fr 1fr 1fr 1fr;
