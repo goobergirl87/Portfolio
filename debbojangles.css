@@ -87,3 +87,42 @@ header {
         margin: 40px 0px 0px 40px;
         text-decoration: none;
     }
+
+footer {
+    display: grid;
+    grid-template-columns: 75px 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.icons {
+    align-items: center;
+    justify-self: end;
+    padding: 0px 40px 40px 0px;
+    grid-column: 5;
+    grid-row: 2;
+}
+
+.icon {
+    margin: 0px 10px;
+}
+
+.footerli {
+    color: lemonchiffon;
+    font-family: Abril Fatface, sansserif;
+    margin-right: 20px;
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    text-decoration: none;
+}
+
+.spacer-bottom {
+    aspect-ratio: 960/502;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.layer-bottom {
+    background-image: url('./img/layer-bottom-new.svg');
+    }
