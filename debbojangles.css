@@ -333,6 +333,38 @@ footer {
     grid-row: 1;
 }
 
+button,
+input,
+textarea {
+    font-family: Raleway, sansserif;
+    font-size: 100%;
+    margin-top: 20px;
+}
+
+input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #3c673c;
+}
+
+input::placeholder {
+    opacity: 0.5;
+    color: #3c673c;
+}
+
+input:focus {
+    border: none;
+}
+
+textarea { 
+    background: rgb(255,255,255,0.5) ;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
     .button-row {
         grid-column: 2;
         grid-row: 3;
