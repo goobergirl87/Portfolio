@@ -56,6 +56,18 @@ html {
     scroll-behavior: smooth;
 }
 
+p {
+    color: lemonchiffon;
+    font-family: Raleway, sansserif;
+    font-size: 18px;
+    line-height: 1.5rem;
+    margin-top: 20px;
+}
+
+a {
+    color: #ffb8c2;
+}
+
 
 header {
     display: flex;
