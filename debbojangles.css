@@ -174,6 +174,38 @@ main {
     padding-right: 50px;
 }
 
+.rps {
+    grid-column: 1 / 5;
+    grid-row: 4;
+    display: grid;
+    grid-template-columns: 30px 1fr 2fr;
+    grid-template-rows: 30px 160px 1fr 1fr;
+    border-left: 1px solid lightpink;
+}
+
+.rps-left {
+    grid-column: 2;
+    grid-row: 1 / 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.rps-title {
+    color: lightpink;
+    font-family: Raleway, sansserif;
+    font-size: 25px;
+}
+
+.rps-text {
+    padding-right: 50px;
+}
+
+.rps-gif {
+    grid-column: 3;
+    grid-row: 1 / 3;
+    width: 70%; 
+}
+
 footer {
     display: grid;
     grid-template-columns: 75px 1fr 1fr 1fr 1fr;
