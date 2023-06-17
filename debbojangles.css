@@ -305,6 +305,34 @@ footer {
     background-image: url('./img/layer-bottom-new.svg');
     }
 
+.contact-section {
+    grid-column: 2 / 6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 20px;
+    margin-top: 200px;
+}
+
+.contact-title {
+    color:#002233;
+    font-family: Abril Fatface, serif;
+    font-size: 50px;
+    grid-column: 1;
+    grid-row: 1;
+    padding-top: 10px;
+}
+
+.contact-text {
+    grid-column: 2 / 4;
+    grid-row: 2;
+    color: #BB004B;
+}
+
+.contact-side {
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
+
     .button-row {
         grid-column: 2;
         grid-row: 3;
