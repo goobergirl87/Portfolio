@@ -14,6 +14,8 @@
 //   });
 // });
 
+// Smooth scrolling
+
 document.querySelector(".nav__links").addEventListener("click", function (e) {
   e.preventDefault();
 
@@ -23,6 +25,29 @@ document.querySelector(".nav__links").addEventListener("click", function (e) {
     document.querySelector(id).scrollIntoView({ behavior: "smooth" });
   }
 });
+
+//Reveal sections - not active, cause it doesn't work in Safari
+
+// const allSections = document.querySelectorAll(".section");
+
+// const revealSection = function (entries, observer) {
+//   const [entry] = entries;
+//   console.log(entry);
+
+//   if (!entry.isIntersecting) return;
+//   entry.target.classList.remove("section-hidden");
+//   observer.unobserve(entry.target);
+// };
+
+// const sectionObserver = new IntersectionObserver(revealSection, {
+//   root: null,
+//   treshold: 0.1,
+// });
+
+// allSections.forEach(function (section) {
+//   sectionObserver.observe(section);
+//   section.classList.add("section-hidden");
+// });
 
 // for (let i = 0; i < 120; i++) {
 //   const photoSketchPad = document.querySelector("#photoSketchPad");
