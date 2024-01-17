@@ -221,7 +221,7 @@ main {
 
 .section-hidden {
   opacity: 0;
-  transform: translate(8rem);
+  transform: translateY(15rem);
 }
 
 .skills-section {
