@@ -219,10 +219,10 @@ main {
   row-gap: 150px;
 }
 
-.section-hidden {
+/* .section-hidden {
   opacity: 0;
   transform: translateY(15rem);
-}
+} */
 
 .skills-section {
   grid-column: 2 / 5;
