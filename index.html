@@ -1,117 +1,221 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sticky Code</title>
-  <script src="debbojangles.js" defer></script>
-  <link rel="stylesheet" href="debbojangles.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@300;400&display=swap');
-  </style>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky Code</title>
+    <script src="debbojangles.js" defer></script>
+    <link rel="stylesheet" href="debbojangles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@300;400&display=swap");
+    </style>
+  </head>
 
-<header class="spacer-top layer-top">
+  <header class="spacer-top layer-top">
     <a class="logo" href="#top">sticky code</a>
-    <div class="headerul">
-        <a href="#skills" class="footerli">skills</a>
-        <a href="#projects" class="footerli">projects</a>
-        <a href="#about" class="footerli">about</a>
-        <a href="#contact" class="footerli">contact</a>
-    </div>
-</header>  
+    <ul class="nav__links">
+      <li class="nav__item">
+        <a class="nav__link" href="#skills">skills</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="#projects">projects</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="#about">about</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="#contact">contact</a>
+      </li>
+    </ul>
+  </header>
 
-<main>
+  <main>
     <div class="title">
-        <h1>Hej, I’m Isabel</h1> 
-        <h2>a full-stack developer in training</h2>
-        <p>I create code, that sticks to your mind.*</p>
+      <h1>Hej, I’m Isabel</h1>
+      <h2>a full-stack developer in training</h2>
+      <p>I create code, that sticks to your mind.*</p>
     </div>
 
-    <div class="skills-section" id="skills">
-        <div class="skills-title">skills</div>
-        <div class="skills-side">
-            <img src="./img/HTML.png" class="skill-icon" alt="html-icon">
-            <img src="./img/CSS.png" class="skill-icon" alt="css-icon">
-            <img src="./img/JS.png" class="skill-icon" alt="javascript-icon">
-            <p class="skills-text">My current skill set is based on my progress in <a href="https://www.theodinproject.com/" target="_blank">THE ODIN PROJECT</a>, which is a free open source coding curriculum. I chose the FULL STACK JAVA SCRIPT course which will also include NODE.JS.</p>
-            <p class="skills-text">Besides that I work with VSCode and Github. The curriculum also introduced frameworks and preprocessors. But at the moment I'm getting in the fundamentals of code to create a base and an understanding, that will make the troubleshooting in Bootstrap, Sass, etc. easier.</p>
-
-        </div>
+    <div class="skills-section section-hidden" id="skills">
+      <div class="skills-title">skills</div>
+      <div class="skills-side">
+        <img src="./img/HTML.png" class="skill-icon" alt="html-icon" />
+        <img src="./img/CSS.png" class="skill-icon" alt="css-icon" />
+        <img src="./img/JS.png" class="skill-icon" alt="javascript-icon" />
+        <p class="skills-text">
+          My current skill set is based on my progress in
+          <a href="https://www.theodinproject.com/" target="_blank"
+            >THE ODIN PROJECT</a
+          >, which is a free open source coding curriculum. I chose the FULL
+          STACK JAVA SCRIPT course which will also include NODE.JS.
+        </p>
+        <p class="skills-text">
+          Besides that I work with VSCode and Github. The curriculum also
+          introduced frameworks and preprocessors. But at the moment I'm getting
+          in the fundamentals of code to create a base and an understanding,
+          that will make the troubleshooting in Bootstrap, Sass, etc. easier.
+        </p>
+      </div>
     </div>
 
-    <div class="projects-section" id="projects">
-        <div class="projects-title">projects</div>
-        
-        <div class="eas">
-            <div class="eas-left">
-                <div class="eas-title">ETCH-A-SKETCH</div>
-                <p class="eas-text">Candy crush, fortnite and WOW are nice, but how about a fine round of etch-a-sketch. Use your imagination and draw. Feels good, man!</p>
-                <div class="button-row">
-                    <a class="button" href="https://github.com/goobergirl87/Etch-A-Sketch" target="_blank">GIT</a>
-                    <a class="button" href="https://goobergirl87.github.io/Etch-A-Sketch/   " target="_blank">LIVE</a>
-                </div>
-            </div>
-            <img src="./img/eas.gif" class="eas-gif" alt="gif of gameplay etch-a-sketch">
-        </div>
+    <div class="projects-section section-hidden" id="projects">
+      <div class="projects-title">projects</div>
 
-        <div class="rps">
-            <div class="rps-left">
-                <div class="rps-title">ROCK PAPER SCISSORS</div>
-                <p class="rps-text">The beauty of a simple rock paper scissors game is unstriking. Dare to fight against the computer intelligence?</p>
-                <div class="button-row">
-                    <a class="button" href="https://github.com/goobergirl87/Rock-Paper-Scissors" target="_blank">GIT</a>
-                    <a class="button" href="https://goobergirl87.github.io/Rock-Paper-Scissors/" target="_blank">LIVE</a>
-                </div>
-            </div>
-            <img src="./img/rps.gif" class="rps-gif" alt="gif of gameplay rock-paper-scissors">
+      <div class="eas">
+        <div class="eas-left">
+          <div class="eas-title">ETCH-A-SKETCH</div>
+          <p class="eas-text">
+            Candy crush, fortnite and WOW are nice, but how about a fine round
+            of etch-a-sketch. Use your imagination and draw. Feels good, man!
+          </p>
+          <div class="button-row">
+            <a
+              class="button"
+              href="https://github.com/goobergirl87/Etch-A-Sketch"
+              target="_blank"
+              >GIT</a
+            >
+            <a
+              class="button"
+              href="https://goobergirl87.github.io/Etch-A-Sketch/   "
+              target="_blank"
+              >LIVE</a
+            >
+          </div>
         </div>
+        <img
+          src="./img/eas.gif"
+          class="eas-gif"
+          alt="gif of gameplay etch-a-sketch"
+        />
+      </div>
 
-        <div class="lp">
-            <div class="lp-left">
-                <div class="lp-title">LANDING PAGE</div>
-                <p class="lp-text">Nothing crazy to see here, just plain HTML and CSS. This landing page shows more the progress I've made, than anything else.</p>
-                <div class="button-row">
-                    <a class="button" href="https://github.com/goobergirl87/TOP-Landing-Page" target="_blank">GIT</a>
-                    <a class="button" href="https://goobergirl87.github.io/TOP-Landing-Page/" target="_blank">LIVE</a>
-                </div>
-            </div>
-            <img src="./img/lp.gif" class="lp-gif" alt="gif that scrolls over the landing page">
+      <div class="rps">
+        <div class="rps-left">
+          <div class="rps-title">ROCK PAPER SCISSORS</div>
+          <p class="rps-text">
+            The beauty of a simple rock paper scissors game is unstriking. Dare
+            to fight against the computer intelligence?
+          </p>
+          <div class="button-row">
+            <a
+              class="button"
+              href="https://github.com/goobergirl87/Rock-Paper-Scissors"
+              target="_blank"
+              >GIT</a
+            >
+            <a
+              class="button"
+              href="https://goobergirl87.github.io/Rock-Paper-Scissors/"
+              target="_blank"
+              >LIVE</a
+            >
+          </div>
         </div>
+        <img
+          src="./img/rps.gif"
+          class="rps-gif"
+          alt="gif of gameplay rock-paper-scissors"
+        />
+      </div>
 
+      <div class="lp">
+        <div class="lp-left">
+          <div class="lp-title">LANDING PAGE</div>
+          <p class="lp-text">
+            Nothing crazy to see here, just plain HTML and CSS. This landing
+            page shows more the progress I've made, than anything else.
+          </p>
+          <div class="button-row">
+            <a
+              class="button"
+              href="https://github.com/goobergirl87/TOP-Landing-Page"
+              target="_blank"
+              >GIT</a
+            >
+            <a
+              class="button"
+              href="https://goobergirl87.github.io/TOP-Landing-Page/"
+              target="_blank"
+              >LIVE</a
+            >
+          </div>
+        </div>
+        <img
+          src="./img/lp.gif"
+          class="lp-gif"
+          alt="gif that scrolls over the landing page"
+        />
+      </div>
     </div>
 
-    <div class="about-section" id="about">
-        <div class="about-title">about</div>
-        <div class="about-side">
-            <p class="about-text">*For the good and the bad. Cause I make mistakes. But the good thing is, that I’m not afraid (most of the time). I am currently looking for an internship and I am wildly motivated to find a company, in which I can push my skills constantly. And I can’t wait to solve problems in a team. </p>
-            <p class="about-text">I'm an empathetic person. I love to be social. But I also love to hide in my flat and just code.</p>
-        </div>
+    <div class="about-section section-hidden" id="about">
+      <div class="about-title">about</div>
+      <div class="about-side">
+        <p class="about-text">
+          *For the good and the bad. Cause I make mistakes. But the good thing
+          is, that I’m not afraid (most of the time). I am currently looking for
+          an internship and I am wildly motivated to find a company, in which I
+          can push my skills constantly. And I can’t wait to solve problems in a
+          team.
+        </p>
+        <p class="about-text">
+          I'm an empathetic person. I love to be social. But I also love to hide
+          in my flat and just code.
+        </p>
+      </div>
     </div>
+  </main>
 
-</main>
-
-
-<footer class="spacer-bottom layer-bottom">  
-    <div class="contact-section" id="contact">
-        <div class="contact-title">contact</div>
-        <div class="contact-side">
-            <form action="example.com/path" method="post">
-                <input type="text" name="first_name" placeholder="First Name*" required>       
-                <input type="text" name="last_name" placeholder="Last Name*" required>       
-                <input type="email" name="email" placeholder="E-Mail Adress*" required>       
-                <textarea rows="10" cols="60" placeholder="Your message"></textarea>
-                <button type="submit" class="button">Submit</button> 
-            </form>
-        </div>
-        <p class="contact-text">Warning, this might go anywhere in the universe, but I can't tell where yet. Til I found out, contact me via linkedin or write a mail to isabelheidekorn@gmail.com.</p>
+  <footer class="spacer-bottom layer-bottom">
+    <div class="contact-section section-hidden" id="contact">
+      <div class="contact-title">contact</div>
+      <div class="contact-side">
+        <form action="example.com/path" method="post">
+          <input
+            type="text"
+            name="first_name"
+            placeholder="First Name*"
+            required
+          />
+          <input
+            type="text"
+            name="last_name"
+            placeholder="Last Name*"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="E-Mail Adress*"
+            required
+          />
+          <textarea rows="10" cols="60" placeholder="Your message"></textarea>
+          <button type="submit" class="button">Submit</button>
+        </form>
+      </div>
+      <p class="contact-text">
+        Warning, this might go anywhere in the universe, but I can't tell where
+        yet. Until I found out, contact me via linkedin or write a mail to
+        isabelheidekorn@gmail.com.
+      </p>
     </div>
 
     <div class="icons">
-        <a class="icon" href="https://de.linkedin.com/in/isabel-heidekorn" target="_blank" ><img src="./img/LinkedIn_icon.png" width="30px" height="30px" loading="lazy"></a>
-        <a class="icon" href="https://github.com/goobergirl87" target="_blank" ><img src="./img/GitHub.png" width="35px" height="35px" loading="lazy"></a>
+      <a
+        class="icon"
+        href="https://de.linkedin.com/in/isabel-heidekorn"
+        target="_blank"
+        ><img
+          src="./img/LinkedIn_icon.png"
+          width="30px"
+          height="30px"
+          loading="lazy"
+      /></a>
+      <a class="icon" href="https://github.com/goobergirl87" target="_blank"
+        ><img src="./img/GitHub.png" width="35px" height="35px" loading="lazy"
+      /></a>
     </div>
-</footer>
-
-</html> 
+  </footer>
+</html>
