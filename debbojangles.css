@@ -256,7 +256,7 @@ main {
   grid-row: 3;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 180px 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
+  grid-template-rows: 180px 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
   row-gap: 50px;
   column-gap: 30px;
 }
