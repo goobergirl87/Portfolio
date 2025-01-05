@@ -211,6 +211,15 @@ h2 {
   margin-bottom: -10px;
 }
 
+h3 {
+  color: #bb004b;
+  font-family: Abril Fatface, serif;
+  font-size: 50px;
+  grid-column: 1;
+  grid-row: 1;
+  padding-top: 40px;
+}
+
 main {
   display: grid;
   grid-template-columns: 75px 1fr 1fr 1fr;
@@ -236,15 +245,6 @@ main {
   grid-template-rows: 1fr 1fr;
 }
 
-.skills-title {
-  color: #bb004b;
-  font-family: Abril Fatface, serif;
-  font-size: 50px;
-  grid-column: 1;
-  grid-row: 1;
-  padding-top: 40px;
-}
-
 .skills-side {
   grid-column: 2 / 4;
   grid-row: 1;
@@ -268,15 +268,6 @@ main {
 .projects-side {
   grid-column: 2 / 4;
   grid-row: 1;
-}
-
-.projects-title {
-  color: #bb004b;
-  font-family: Abril Fatface, serif;
-  font-size: 50px;
-  grid-column: 1;
-  grid-row: 1;
-  padding-top: 10px;
 }
 
 .project {
@@ -338,15 +329,6 @@ main {
   grid-template-rows: 1fr 1fr;
 }
 
-.about-title {
-  color: #bb004b;
-  font-family: Abril Fatface, serif;
-  font-size: 50px;
-  grid-column: 1;
-  grid-row: 1;
-  padding-top: 10px;
-}
-
 .about-side {
   grid-column: 2 / 4;
   grid-row: 1;
@@ -401,11 +383,6 @@ footer {
 
 .contact-title {
   color: #002233;
-  font-family: Abril Fatface, serif;
-  font-size: 50px;
-  grid-column: 1;
-  grid-row: 1;
-  padding-top: 10px;
 }
 
 .contact-text {
@@ -480,14 +457,12 @@ form {
   top: 1px;
 }
 
-#skills {
+#skills,
+#about {
   scroll-margin-top: 250px;
 }
 #projects {
   scroll-margin-top: 150px;
-}
-#about {
-  scroll-margin-top: 250px;
 }
 #contact {
   scroll-margin-top: 130px;
