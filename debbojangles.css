@@ -467,3 +467,69 @@ form {
 #contact {
   scroll-margin-top: 130px;
 }
+
+@media (max-width: 900px) {
+  .project {
+    display: block;
+    border-left: 1px solid lightpink;
+    margin: 0px 0px 150px 20px;
+    padding-left: 20px;
+  }
+
+  img {
+    width: 90%;
+    margin-top: 30px;
+  }
+
+  main,
+  footer,
+  .skills-section,
+  .about-section,
+  .projects-section,
+  .contact-section {
+    display: block;
+    padding-left: 20px;
+    margin-bottom: 150px;
+    margin-right: 40px;
+  }
+
+  .about-section {
+    margin-right: 40px;
+  }
+
+  .projects-section h3 {
+    margin-bottom: 40px;
+  }
+  .contact-section div {
+    margin-right: 40px;
+  }
+  .contact-section h3 {
+    color: #bb004b;
+  }
+
+  header {
+    flex-direction: column;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  li {
+    margin: 10px 0px 0px 40px;
+  }
+
+  h1 {
+    text-align: right;
+    font-size: 50px;
+  }
+
+  h2 {
+    text-align: right;
+    font-size: 30px;
+  }
+
+  .title p {
+    text-align: right;
+  }
+}
