@@ -220,6 +220,12 @@ h3 {
   padding-top: 40px;
 }
 
+h4 {
+  color: #ffb6c1;
+  font-family: Raleway, sansserif;
+  font-size: 25px;
+}
+
 main {
   display: grid;
   grid-template-columns: 75px 1fr 1fr 1fr;
