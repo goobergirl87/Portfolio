@@ -151,7 +151,6 @@ a {
 header {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   position: sticky;
   top: 0;
 }
@@ -160,10 +159,17 @@ ul li {
   display: inline;
 }
 
-.nav__links {
-  align-items: center;
+header > ul {
   margin: 40px 20px 0px 0px;
-  flex-wrap: wrap;
+}
+
+header > ul > li > a {
+  color: lemonchiffon;
+  font-family: Abril Fatface, sansserif;
+  margin-right: 20px;
+  font-size: 20px;
+  letter-spacing: 0.7px;
+  text-decoration: none;
 }
 
 .spacer-top {
@@ -271,11 +277,6 @@ main {
   column-gap: 30px;
 }
 
-.projects-side {
-  grid-column: 2 / 4;
-  grid-row: 1;
-}
-
 .project {
   grid-column: 1 / 5;
   display: grid;
@@ -284,44 +285,38 @@ main {
   border-left: 1px solid lightpink;
 }
 
-.hwca {
+.one {
   grid-row: 2;
 }
 
-.meb {
+.two {
   grid-row: 4;
 }
 
-.eas {
+.three {
   grid-row: 6;
 }
 
-.rps {
+.four {
   grid-row: 8;
 }
 
-.lp {
+.five {
   grid-row: 10;
 }
 
-.project-left-side {
+.project-description {
   grid-column: 2;
   grid-row: 1 / 5;
   display: flex;
   flex-direction: column;
 }
 
-.project-title {
-  color: #ffb6c1;
-  font-family: Raleway, sansserif;
-  font-size: 25px;
-}
-
-.project-text {
+.project-description p {
   padding-right: 50px;
 }
 
-.gif {
+img {
   width: 70%;
   grid-column: 3;
   grid-row: 1 / 3;
@@ -335,7 +330,7 @@ main {
   grid-template-rows: 1fr 1fr;
 }
 
-.about-side {
+.about-section div {
   grid-column: 2 / 4;
   grid-row: 1;
 }
@@ -349,22 +344,13 @@ footer {
 .icons {
   align-items: center;
   justify-self: end;
-  padding: 0px 40px 40px 0px;
+  padding: 0px 0px 40px 0px;
   grid-column: 5;
   grid-row: 2;
 }
 
-.icon {
+.icons a {
   margin: 0px 10px;
-}
-
-.nav__link {
-  color: lemonchiffon;
-  font-family: Abril Fatface, sansserif;
-  margin-right: 20px;
-  font-size: 20px;
-  letter-spacing: 0.7px;
-  text-decoration: none;
 }
 
 .spacer-bottom {
@@ -387,17 +373,17 @@ footer {
   margin-top: 200px;
 }
 
-.contact-title {
+.contact-section h3 {
   color: #002233;
 }
 
-.contact-text {
+.contact-section p {
   grid-column: 2 / 4;
   grid-row: 2;
   color: #bb004b;
 }
 
-.contact-side {
+.contact-section div {
   grid-column: 2 / 4;
   grid-row: 1;
 }
